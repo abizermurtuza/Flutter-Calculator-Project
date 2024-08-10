@@ -27,7 +27,7 @@ class CustomButton extends StatelessWidget {
         child: Center(
           child: Text(
             text,
-            style: GoogleFonts.lora(
+            style: GoogleFonts.ubuntu(
               color: textColor,
               fontSize: 22,
               fontWeight: FontWeight.bold,

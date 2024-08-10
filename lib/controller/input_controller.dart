@@ -36,7 +36,11 @@ class InputController extends GetxController {
         onPressButton == '÷') {
       operator.value = onPressButton;
       operator.replaceAll('x', '*');
-      currentInput.value = '';
+      operator.replaceAll('÷', '/');
+      currentInput.value = ''; // Reset currentInput
+      if (firstInput.value.isNotEmpty) {
+        currentInput.value = ''; // Reset currentInput to empty string
+      }
     } else {
       if (operator.value.isEmpty) {
         if (firstInput.value.length < 16) {
@@ -65,6 +69,8 @@ class InputController extends GetxController {
         updateTotalInput();
       } else {
         clearInputOutput();
+        firstInput.value += onPressButton;
+        currentInput.value = firstInput.value;
       }
     }
 
@@ -77,6 +83,7 @@ class InputController extends GetxController {
     totalInput.value = '';
     answer.value = '';
     currentInput.value = '';
+    operator.value = '';
     update();
   }
 

@@ -175,7 +175,7 @@ class Calculator extends StatelessWidget {
                 alignment: Alignment.centerRight,
                 child: Text(
                   controller.currentInput.toString(),
-                  style: GoogleFonts.lora(
+                  style: GoogleFonts.ubuntu(
                     color: white,
                     fontSize: 38,
                     fontWeight: FontWeight.bold,
