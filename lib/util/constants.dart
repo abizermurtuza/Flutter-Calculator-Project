@@ -7,5 +7,6 @@ const leftOperatorColor = Color.fromARGB(255, 7, 255, 209);
 const deleteButton = Color.fromARGB(255, 226, 13, 13);
 const topOperator = Color.fromARGB(255, 100, 99, 99);
 const white = Colors.white;
-const rightOperator = Color.fromARGB(255, 255, 153, 0);
+const orange = Color.fromARGB(255, 255, 153, 0);
 const black = Colors.black;
+const grey = Colors.grey;

@@ -37,6 +37,7 @@ dependencies:
   get:
   math_expressions: ^2.6.0
   google_fonts: ^6.2.1
+  syncfusion_flutter_sliders: ^23.1.40
 
 dev_dependencies:
   flutter_test:
